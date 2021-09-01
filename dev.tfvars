@@ -1,0 +1,10 @@
+cidr = "10.1.0.0/16"
+envname = "dev"
+region = "ap-south-1"
+pubsubnet = ["10.1.0.0/24","10.1.1.0/24","10.1.2.0/24"]
+privatesubnet = ["10.1.3.0/24","10.1.4.0/24","10.1.5.0/24"]
+datasubnet = ["10.1.6.0/24","10.1.7.0/24","10.1.8.0/24"]
+azs = ["ap-south-1a","ap-south-1b","ap-south-1c"]
+ami = "ami-04db49c0fb2215364"
+type = "t2.micro" 
+ami1 = "ami-0c1a7f89451184c8b"
